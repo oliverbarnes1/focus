@@ -1,3 +1,3 @@
 class Plant < ApplicationRecord
-    testyy
+    testyyfund
 end
