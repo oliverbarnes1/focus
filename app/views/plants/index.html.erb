@@ -1,1 +1,12 @@
-<h1>here there will be all the plants
+<br>
+<br>
+
+<% @plants.each do |plant| %>
+<%= plant.name %>
+<br>
+<%= plant.category %>
+<br>
+<%= image_tag plant.image %>
+<br> 
+<%= plant.coins %>
+<% end %>
